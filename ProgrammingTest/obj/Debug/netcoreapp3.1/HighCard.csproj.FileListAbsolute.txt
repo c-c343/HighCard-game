@@ -1,0 +1,4 @@
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.csprojAssemblyReference.cache
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.AssemblyInfoInputs.cache
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.AssemblyInfo.cs
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.csproj.CoreCompileInputs.cache
