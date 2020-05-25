@@ -1,4 +1,12 @@
-C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.csprojAssemblyReference.cache
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.exe
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.deps.json
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.runtimeconfig.json
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.runtimeconfig.dev.json
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.dll
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\bin\Debug\netcoreapp3.1\HighCard.pdb
 C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.AssemblyInfoInputs.cache
 C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.AssemblyInfo.cs
 C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.csproj.CoreCompileInputs.cache
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.dll
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.pdb
+C:\Users\cynth\Documents\Personal\Kingslsle\ProgrammingTest\ProgrammingTest\obj\Debug\netcoreapp3.1\HighCard.genruntimeconfig.cache
