@@ -1,11 +1,27 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
+using System.Runtime.ExceptionServices;
 
+
+/*
+ * Simple card game. 
+ * At the beginning of the game, two players are created: player 1, player 2
+ * Introductory menu appears and asks for user input
+ * as long as user input is = Y || y, the game will continue to deal cards to player 1 and player 2
+ * as well as finding a winner for each game
+ * When user enters N || n || any other key, game terminates.
+ * 
+ * 
+*/
 namespace HighCard
 {
     public class program
     {
         static void Main(string[] args)
         {
+            Player player1 = new Player();
+            Player player2 = new Player();
+
             //-------------------------CONSOLE INTRODUCTION--------------------------//
             Console.WriteLine("***************************************\n");
             Console.WriteLine("\t Hello, Welcome !\n");
@@ -15,49 +31,57 @@ namespace HighCard
             Console.WriteLine("\t Let's Begin.....\n");
             Console.WriteLine("Press any key to start...\n");
             Console.WriteLine("***************************************\n");
-            Console.ReadKey();
-            Console.WriteLine("\n");
+
             //-----------------------------------------------------------------------//
-            // Console.WriteLine("displaying a card value: " + (int)CardVals.Two);
-            //creating variable for player 1 card, then deal
-            Card p1Card;
+
+            //creating deck
             Deck deck = new Deck();
             deck.Shuffle();
-            p1Card = deck.Deal();
-
-            Console.WriteLine("Player 1: ");
-            Console.WriteLine(p1Card);
-
-            //creating variable for player 2 card without resetting deck. deal card.
-            Card p2Card;
-            p2Card = deck.Deal();
-            Console.WriteLine("Player 2: ");
-            Console.WriteLine(p2Card);
 
 
 
-            /*for (int i = 0; i < 52; i++)
+
+            //---------------------------Deal Cards--------------------------------//
+            
+            Console.WriteLine("Continue? [Y/N]: ");
+            string choice = Console.ReadLine();
+            do
             {
-                //output every card created
-                Console.Write(" {0, -19} ", deck.Deal());
-                if ((i + 1) % 4 == 0)
-                    Console.WriteLine();
-            }
-            Console.ReadLine();*/
+                //deal cards
+                Card player1Card = deck.Deal();
+                Card player2Card = deck.Deal();
 
 
+                //displays card given to each player
+                Console.WriteLine(player1 + ": " + player1Card + "\n" + player2 + ": " + player2Card + "\n");
 
-            /*        if (p1Card.Value > p2Card.Value)
+                //if both players get the same number, check the suit
+                if (player1Card.getCard() == player2Card.getSuit())
+                {
+                    if (player1Card.getSuit() > player2Card.getSuit())
                     {
-                        Console.WriteLine("\nPlayer 1 Wins! \n");
-                    }
-                    else if (p2Card.Value > p1Card.Value)
-                    {
-                        Console.WriteLine("Player 2 Wins!");
+                        Console.WriteLine("Player 1 wins\n");
                     }
                     else
-                        Console.WriteLine("It's a tie!");
-                }*/
+                        Console.WriteLine("Player 2 wins!\n");
+                }
+                //continue
+                else
+                {
+                    if (player1Card.getCard() > player2Card.getCard())
+                    {
+                        Console.WriteLine("Player 1 wins\n");
+                    }
+                    else
+                        Console.WriteLine("Player 2 Wins!\n");
+                }
+
+                //Check for user input
+                Console.WriteLine("Continue? [Y/N]: ");
+                choice = Console.ReadLine();
+            } while (choice == "Y" || choice == "y");
+
+            //program terminates after user enters N or anything other than Y.
 
         }
 

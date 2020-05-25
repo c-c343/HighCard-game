@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
+using System.Text;
 
-public class Player
+namespace HighCard
 {
-	private string player1;
-	private string player2;
-	public Player(string player1Turn, string player2Turn)
-	{
-		player1 = player1Turn;
-		player2 = player2Turn;
-	}
-	public string Winner()
-	{
-		void findWinner(); 
-	}
+    class Player
+    {
+        public Player()
+        {
+
+        }
+    }
 }
